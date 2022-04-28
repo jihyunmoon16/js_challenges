@@ -5,8 +5,17 @@
 // Otherwise, return false
 
 function myFunction(a) {
-  return;
+  if (a % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
+
+console.log(myFunction(10));
+console.log(myFunction(-4));
+console.log(myFunction(5));
+console.log(myFunction(-111));
 
 /*
 

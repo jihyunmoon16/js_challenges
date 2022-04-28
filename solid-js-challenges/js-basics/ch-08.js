@@ -4,9 +4,14 @@
 // Extract the first half a
 // Return the result
 
+// 이거 못품...
 function myFunction(a) {
-  return;
+  return a.slice(0, a.length / 2 + 1);
 }
+
+console.log(myFunction("abcdefgh"));
+console.log(myFunction("1234"));
+console.log(myFunction("gedcba"));
 
 /* Test Cases
 

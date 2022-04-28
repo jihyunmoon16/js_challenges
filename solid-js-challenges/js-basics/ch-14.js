@@ -7,6 +7,8 @@
 // You might want to apply basic JS string methods such as replace(), split(), slice() etc
 
 function myFunction(a, b) {
+  a = a.replace("%", "");
+  b = b.replace("%", "");
   return;
 }
 

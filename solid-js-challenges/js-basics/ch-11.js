@@ -5,12 +5,15 @@
 // Then substract by c
 // Then multiply by d and divide by e
 // Finally raise to the power of f and return the result
-// Tipp: mind the order
+// Tip: mind the order
 
 function myFunction(a, b, c, d, e, f) {
-  return;
+  return Math.pow(((a + b - c) * d) / e, f);
 }
 
+console.log(myFunction(6, 5, 4, 3, 2, 1));
+console.log(myFunction(6, 2, 1, 4, 2, 3));
+console.log(myFunction(2, 3, 6, 4, 2, 3));
 /*
 
 myFunction(6,5,4,3,2,1) Expected 10.5

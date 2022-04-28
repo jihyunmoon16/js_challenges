@@ -5,7 +5,7 @@
 // Return the result
 
 function myFunction(a) {
-  return;
+  return a.slice();
 }
 
 /*

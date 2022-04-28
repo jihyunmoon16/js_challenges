@@ -5,8 +5,12 @@
 // Return the result
 
 function myFunction(str) {
-  return;
+  return str.slice(str.length - 3, str.length);
 }
+
+console.log(myFunction("abcdefg"));
+console.log(myFunction("1234"));
+console.log(myFunction("fgedcba"));
 
 /*
 
