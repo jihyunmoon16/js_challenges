@@ -5,7 +5,7 @@
 // Return the result
 
 function myFunction(a) {
-  return a.slice(0, 3);
+  return a.slice(0, 3); // 마지막은 짜르지 않음. 0, 1, 2 까지만.
 }
 
 console.log(myFunction("abcdefg"));

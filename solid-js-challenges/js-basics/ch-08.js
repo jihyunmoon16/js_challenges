@@ -6,7 +6,8 @@
 
 // 이거 못품...
 function myFunction(a) {
-  return a.slice(0, a.length / 2 + 1);
+  return a.slice(0, a.length / 2);
+  // return a.slice(0, a.length / 2 + 1); 여기다 +1 을 왜 했지?? 그냥 2로 나누면 됨.
 }
 
 console.log(myFunction("abcdefgh"));

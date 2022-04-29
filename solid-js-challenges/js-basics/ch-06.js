@@ -6,6 +6,7 @@
 
 function myFunction(str) {
   return str.slice(str.length - 3, str.length);
+  // return str.slice(-3) -> 그럼 뒤에서 부터 짤라준다. 
 }
 
 console.log(myFunction("abcdefg"));

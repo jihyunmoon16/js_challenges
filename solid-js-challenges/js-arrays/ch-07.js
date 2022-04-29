@@ -15,6 +15,8 @@ function myFunction(a) {
   count = 0;
   a.forEach((item) => count++);
   return count;
+
+  // return a.length; // length 쓰면 간단함...
 }
 
 console.log(myFunction([1, 2, 2, 4]));

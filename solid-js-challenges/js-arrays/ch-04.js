@@ -12,6 +12,8 @@ concat -> 새로운 배열 반환 (반환값을 변수에 할당 받아야함)
 function myFunction(a) {
   b = a.splice(0, 3);
   return b;
+
+  // return a.slice(0, 3);
 }
 
 console.log(myFunction([1, 2, 3, 4]));

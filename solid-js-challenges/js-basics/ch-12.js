@@ -10,6 +10,7 @@ function myFunction(a) {
   } else {
     return false;
   }
+  // return a % 2 === 0; 이렇게만 써도 되는데...if문 썼다...
 }
 
 console.log(myFunction(10));

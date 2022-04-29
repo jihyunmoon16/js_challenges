@@ -9,6 +9,8 @@
 function myFunction(a) {
   a.splice(0, 3);
   return a;
+
+  // return a.slice(3);
 }
 
 console.log(myFunction([1, 2, 3, 4]));

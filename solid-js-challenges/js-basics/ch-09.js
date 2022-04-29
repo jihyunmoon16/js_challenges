@@ -5,8 +5,13 @@
 // Return the result
 
 function myFunction(a) {
-  return a.slice();
+  // 끝에서 -3까지 짜름.
+  return a.slice(0, -3);
 }
+
+console.log(myFunction("abcdefg"));
+console.log(myFunction("1234"));
+console.log(myFunction("fgedcba"));
 
 /*
 

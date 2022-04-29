@@ -5,13 +5,16 @@
 
 // charAt() 함수를 쓰면 몇번째 인덱스에 어떤 글짜가 있는지 확인 할 수 있음.
 function myFunction(a, n) {
-  return a.charAt(n);
+  return a.charAt(n - 1);
+  // return a[n-1];
 }
 
-// 0번째 부터 시작하는 거 아닌가?
+// 0번째 부터 시작하기 때문에 n-1 해줘야 함.
+
 console.log(myFunction("abcd", 1));
 console.log(myFunction("zyxbwpl", 5));
 console.log(myFunction("gfedcba", 3));
+
 /* Test Cases
 
 myFunction('abcd',1) Expected 'a'
